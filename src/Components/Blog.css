@@ -1,0 +1,31 @@
+.blog-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow to the entire blog card */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effects */
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-5px); /* Slightly lift the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+  
+  .blog-body {
+    height: 300px; /* Fixed height for the blog body */
+    overflow-y: auto; /* Add scroll effect if content is long */
+  }
+  
+  .blog-content {
+    background-color: #f8f9fa; /* Soft gray background */
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth background change on hover */
+  }
+  
+  .blog-content:hover {
+    background-color: #e2e6ea; /* Slightly darker gray on hover */
+  }
+  
+  .blog-text {
+    margin-top: 10px;
+    color: #343a40; /* Darker text color for better contrast */
+  }
+  
